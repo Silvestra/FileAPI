@@ -1,0 +1,28 @@
+{
+    "name": "silvestra/FileAPI",
+    "homepage": "https://github.com/mailru/FileAPI",
+    "type": "component",
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "dist/FileAPI.html5.js",
+                "dist/FileAPI.js"
+            ],
+            "files": [
+                "dist/FileAPI.flash.camera.swf",
+                "dist/FileAPI.flash.image.swf",
+                "dist/FileAPI.flash.swf",
+                "dist/FileAPI.html5.min.js",
+                "dist/FileAPI.min.js",
+                "dist/jquery.fileapi.min.js",
+                "plugins/caman.full.min.js",
+                "plugins/caman.min.js",
+                "plugins/FileAPI.exif.js",
+                "plugins/FileAPI.id3.js"
+            ]
+        }
+    }
+}
